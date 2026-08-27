@@ -1,0 +1,273 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="200">
+  <defs>
+    <!-- Background Canvas Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <!-- Floor Glow Line -->
+    <linearGradient id="floorGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#f97316" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Claude Orange Gradient -->
+    <linearGradient id="claudeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+
+    <!-- Shaheen Cyan Gradient -->
+    <linearGradient id="shaheenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <!-- DSH Purple Gradient -->
+    <linearGradient id="dshGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#7e22ce" />
+    </linearGradient>
+
+    <!-- Prime Green Gradient -->
+    <linearGradient id="primeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <style>
+      /* Roaming Animation for Agent 1: Claude-Ops */
+      @keyframes roamClaude {
+        0% { transform: translateX(40px); }
+        48% { transform: translateX(680px) scaleX(1); }
+        50% { transform: translateX(680px) scaleX(-1); }
+        98% { transform: translateX(40px) scaleX(-1); }
+        100% { transform: translateX(40px) scaleX(1); }
+      }
+
+      /* Roaming Animation for Agent 2: Shaheen Bot */
+      @keyframes roamShaheen {
+        0% { transform: translateX(700px) scaleX(-1); }
+        48% { transform: translateX(80px) scaleX(-1); }
+        50% { transform: translateX(80px) scaleX(1); }
+        98% { transform: translateX(700px) scaleX(1); }
+        100% { transform: translateX(700px) scaleX(-1); }
+      }
+
+      /* Roaming Animation for Agent 3: DSH Scout */
+      @keyframes roamDSH {
+        0% { transform: translateX(200px); }
+        45% { transform: translateX(520px) scaleX(1); }
+        50% { transform: translateX(520px) scaleX(-1); }
+        95% { transform: translateX(200px) scaleX(-1); }
+        100% { transform: translateX(200px) scaleX(1); }
+      }
+
+      /* Roaming Animation for Agent 4: Prime RLM */
+      @keyframes roamPrime {
+        0% { transform: translateX(480px) scaleX(-1); }
+        45% { transform: translateX(120px) scaleX(-1); }
+        50% { transform: translateX(120px) scaleX(1); }
+        95% { transform: translateX(480px) scaleX(1); }
+        100% { transform: translateX(480px) scaleX(-1); }
+      }
+
+      /* Walking Bob Motion */
+      @keyframes walkBob {
+        0%, 100% { transform: translateY(0px); }
+        25% { transform: translateY(-6px); }
+        50% { transform: translateY(0px); }
+        75% { transform: translateY(-6px); }
+      }
+
+      /* Leg Swing Motion */
+      @keyframes legSwing1 {
+        0%, 100% { transform: rotate(18deg); }
+        50% { transform: rotate(-18deg); }
+      }
+      @keyframes legSwing2 {
+        0%, 100% { transform: rotate(-18deg); }
+        50% { transform: rotate(18deg); }
+      }
+
+      /* Pulse Glow */
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.7; }
+        50% { opacity: 1; }
+      }
+
+      .claude-bot-container {
+        animation: roamClaude 22s ease-in-out infinite;
+      }
+      .shaheen-bot-container {
+        animation: roamShaheen 28s ease-in-out infinite;
+      }
+      .dsh-bot-container {
+        animation: roamDSH 18s ease-in-out infinite;
+      }
+      .prime-bot-container {
+        animation: roamPrime 24s ease-in-out infinite;
+      }
+
+      .bob-motion {
+        animation: walkBob 0.6s ease-in-out infinite;
+      }
+
+      .leg-1 {
+        animation: legSwing1 0.6s ease-in-out infinite;
+        transform-origin: top center;
+      }
+      .leg-2 {
+        animation: legSwing2 0.6s ease-in-out infinite;
+        transform-origin: top center;
+      }
+
+      .agent-label {
+        font-family: 'Fira Code', 'Courier New', monospace;
+        font-size: 11px;
+        font-weight: bold;
+        text-anchor: middle;
+      }
+
+      .status-pill {
+        font-family: 'Fira Code', monospace;
+        font-size: 9px;
+        fill: #94a3b8;
+        text-anchor: middle;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="200" rx="12" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Grid Pattern -->
+  <g opacity="0.08" stroke="#38bdf8" stroke-width="1">
+    <line x1="0" y1="40" x2="800" y2="40" />
+    <line x1="0" y1="80" x2="800" y2="80" />
+    <line x1="0" y1="120" x2="800" y2="120" />
+    <line x1="0" y1="160" x2="800" y2="160" />
+  </g>
+
+  <!-- Title Header inside Box -->
+  <text x="400" y="24" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" font-weight="bold" fill="#64748b" letter-spacing="2">
+    🤖 LIVE AGENT FLEET PATROL // SYSTEM_STATUS: ACTIVE
+  </text>
+
+  <!-- Walking Surface Floor Line -->
+  <line x1="20" y1="165" x2="780" y2="165" stroke="url(#floorGrad)" stroke-width="3" stroke-linecap="round" />
+  <line x1="20" y1="166" x2="780" y2="166" stroke="#38bdf8" stroke-width="1" opacity="0.4" />
+
+  <!-- AGENT 1: Claude-Ops Bot (Orange/Amber Sparkle Face) -->
+  <g class="claude-bot-container">
+    <g class="bob-motion">
+      <!-- Name Badge & Status -->
+      <g transform="translate(0, 80)">
+        <rect x="-42" y="-18" width="84" height="18" rx="9" fill="#1e1035" stroke="#f97316" stroke-width="1.2" />
+        <text x="0" y="-5" class="agent-label" fill="#fb923c">⚡ Claude-Ops</text>
+      </g>
+
+      <!-- Bot Head & Body (Claude Code Style) -->
+      <g transform="translate(0, 125)">
+        <!-- Legs -->
+        <line x1="-7" y1="15" x2="-7" y2="36" stroke="#ea580c" stroke-width="3.5" stroke-linecap="round" class="leg-1" />
+        <line x1="7" y1="15" x2="7" y2="36" stroke="#ea580c" stroke-width="3.5" stroke-linecap="round" class="leg-2" />
+
+        <!-- Main Body -->
+        <rect x="-18" y="-18" width="36" height="34" rx="10" fill="url(#claudeGrad)" stroke="#ffedd5" stroke-width="1.5" />
+
+        <!-- Claude Sparkle / Star Eyes -->
+        <path d="M 0 -8 L 2 -2 L 8 0 L 2 2 L 0 8 L -2 2 L -8 0 L -2 -2 Z" fill="#ffffff" />
+        
+        <!-- Antenna -->
+        <line x1="0" y1="-18" x2="0" y2="-26" stroke="#f97316" stroke-width="2" />
+        <circle cx="0" cy="-27" r="3" fill="#fb923c" class="pulseGlow" />
+      </g>
+    </g>
+  </g>
+
+  <!-- AGENT 2: Shaheen Agent (Cyan Cyber Eagle Bot) -->
+  <g class="shaheen-bot-container">
+    <g class="bob-motion">
+      <!-- Name Badge & Status -->
+      <g transform="translate(0, 75)">
+        <rect x="-48" y="-18" width="96" height="18" rx="9" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.2" />
+        <text x="0" y="-5" class="agent-label" fill="#38bdf8">🦅 Shaheen-Core</text>
+      </g>
+
+      <!-- Bot Head & Body -->
+      <g transform="translate(0, 125)">
+        <!-- Legs -->
+        <line x1="-8" y1="15" x2="-8" y2="36" stroke="#0284c7" stroke-width="3.5" stroke-linecap="round" class="leg-2" />
+        <line x1="8" y1="15" x2="8" y2="36" stroke="#0284c7" stroke-width="3.5" stroke-linecap="round" class="leg-1" />
+
+        <!-- Main Body -->
+        <rect x="-20" y="-18" width="40" height="34" rx="8" fill="url(#shaheenGrad)" stroke="#e0f2fe" stroke-width="1.5" />
+
+        <!-- Cyber Visor Eye -->
+        <rect x="-14" y="-8" width="28" height="12" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="1" />
+        <circle cx="-4" cy="-2" r="2.5" fill="#38bdf8" />
+        <circle cx="4" cy="-2" r="2.5" fill="#38bdf8" />
+
+        <!-- Cyber Wings Accent -->
+        <path d="M -20 -4 L -28 -12 L -20 6 Z" fill="#38bdf8" />
+        <path d="M 20 -4 L 28 -12 L 20 6 Z" fill="#38bdf8" />
+      </g>
+    </g>
+  </g>
+
+  <!-- AGENT 3: DSH-Scout (Purple Plugin Bot) -->
+  <g class="dsh-bot-container">
+    <g class="bob-motion">
+      <!-- Name Badge & Status -->
+      <g transform="translate(0, 82)">
+        <rect x="-42" y="-18" width="84" height="18" rx="9" fill="#2e1065" stroke="#c084fc" stroke-width="1.2" />
+        <text x="0" y="-5" class="agent-label" fill="#c084fc">🔌 DSH-Scout</text>
+      </g>
+
+      <!-- Bot Head & Body -->
+      <g transform="translate(0, 125)">
+        <!-- Legs -->
+        <line x1="-6" y1="15" x2="-6" y2="36" stroke="#7e22ce" stroke-width="3.5" stroke-linecap="round" class="leg-1" />
+        <line x1="6" y1="15" x2="6" y2="36" stroke="#7e22ce" stroke-width="3.5" stroke-linecap="round" class="leg-2" />
+
+        <!-- Main Body (Diamond/Plugin shape) -->
+        <rect x="-16" y="-16" width="32" height="32" rx="6" fill="url(#dshGrad)" stroke="#f3e8ff" stroke-width="1.5" transform="rotate(45)" />
+
+        <!-- Cute Eyes -->
+        <circle cx="-5" cy="-2" r="3" fill="#ffffff" />
+        <circle cx="5" cy="-2" r="3" fill="#ffffff" />
+        <circle cx="-4" cy="-2" r="1.5" fill="#2e1065" />
+        <circle cx="6" cy="-2" r="1.5" fill="#2e1065" />
+      </g>
+    </g>
+  </g>
+
+  <!-- AGENT 4: Prime-RLM (Emerald Green Coding Bot) -->
+  <g class="prime-bot-container">
+    <g class="bob-motion">
+      <!-- Name Badge & Status -->
+      <g transform="translate(0, 78)">
+        <rect x="-40" y="-18" width="80" height="18" rx="9" fill="#064e3b" stroke="#34d399" stroke-width="1.2" />
+        <text x="0" y="-5" class="agent-label" fill="#34d399">🧠 Prime-RLM</text>
+      </g>
+
+      <!-- Bot Head & Body -->
+      <g transform="translate(0, 125)">
+        <!-- Legs -->
+        <line x1="-7" y1="15" x2="-7" y2="36" stroke="#059669" stroke-width="3.5" stroke-linecap="round" class="leg-2" />
+        <line x1="7" y1="15" x2="7" y2="36" stroke="#059669" stroke-width="3.5" stroke-linecap="round" class="leg-1" />
+
+        <!-- Main Body -->
+        <rect x="-18" y="-18" width="36" height="34" rx="10" fill="url(#primeGrad)" stroke="#ecfdf5" stroke-width="1.5" />
+
+        <!-- Code Screen Display -->
+        <rect x="-12" y="-10" width="24" height="16" rx="4" fill="#064e3b" stroke="#34d399" stroke-width="1" />
+        <text x="0" y="2" font-family="'Fira Code', monospace" font-size="8" fill="#34d399" text-anchor="middle">&gt;_</text>
+      </g>
+    </g>
+  </g>
+
+</svg>

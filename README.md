@@ -19,6 +19,13 @@
     <img src="banner.webp" alt="Banner Artwork" width="100%" />
   </p>
 
+  <br />
+
+  <!-- Animated Roaming Autonomous Agents (Claude Code Style) -->
+  <p align="center">
+    <img src="agents_roaming.svg" alt="Live Roaming Agent Fleet" width="100%" />
+  </p>
+
 </div>
 
 ---
