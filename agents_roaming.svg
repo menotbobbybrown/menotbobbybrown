@@ -1,125 +1,139 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 240" width="100%" height="240">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 260" width="100%" height="260">
   <defs>
-    <!-- Dark Cyber Grid Background -->
+    <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#080c14" />
       <stop offset="50%" stop-color="#0f172a" />
-      <stop offset="100%" stop-color="#180e29" />
+      <stop offset="100%" stop-color="#190e2b" />
     </linearGradient>
 
-    <!-- Metallic & Neon Gradients -->
-    <linearGradient id="makimaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Hair Gradients -->
+    <linearGradient id="makimaHair" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#fdba74" />
-      <stop offset="50%" stop-color="#f97316" />
       <stop offset="100%" stop-color="#ea580c" />
     </linearGradient>
 
-    <linearGradient id="remGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="remHair" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#7dd3fc" />
-      <stop offset="50%" stop-color="#0284c7" />
-      <stop offset="100%" stop-color="#0369a1" />
+      <stop offset="100%" stop-color="#0284c7" />
     </linearGradient>
 
-    <linearGradient id="zeroTwoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="zeroTwoHair" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#f472b6" />
-      <stop offset="50%" stop-color="#e11d48" />
-      <stop offset="100%" stop-color="#9f1239" />
+      <stop offset="100%" stop-color="#e11d48" />
     </linearGradient>
 
-    <linearGradient id="hinataGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#6ee7b7" />
-      <stop offset="50%" stop-color="#10b981" />
-      <stop offset="100%" stop-color="#047857" />
+    <linearGradient id="hinataHair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#4c1d95" />
     </linearGradient>
 
     <!-- Floor Glow Track -->
     <linearGradient id="floorTrack" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1" />
-      <stop offset="30%" stop-color="#f97316" stop-opacity="0.7" />
-      <stop offset="70%" stop-color="#e11d48" stop-opacity="0.7" />
+      <stop offset="30%" stop-color="#f97316" stop-opacity="0.6" />
+      <stop offset="70%" stop-color="#e11d48" stop-opacity="0.6" />
       <stop offset="100%" stop-color="#10b981" stop-opacity="0.1" />
     </linearGradient>
 
-    <!-- Soft Drop Shadows -->
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+    <!-- Filters -->
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
       <feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#000000" flood-opacity="0.6" />
     </filter>
-    
-    <filter id="glowCyan" x="-30%" y="-30%" width="160%" height="160%">
+
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="3" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
 
     <style>
-      /* Realistic Walking Keyframe Trajectories */
-      @keyframes walkCycle1 {
-        0% { transform: translateX(30px) scaleX(1); }
-        48% { transform: translateX(730px) scaleX(1); }
-        50% { transform: translateX(730px) scaleX(-1); }
-        98% { transform: translateX(30px) scaleX(-1); }
-        100% { transform: translateX(30px) scaleX(1); }
+      /* Independent X Translation for Agent Containers */
+      @keyframes moveAgent1 {
+        0% { transform: translateX(40px); }
+        48% { transform: translateX(720px); }
+        50% { transform: translateX(720px); }
+        98% { transform: translateX(40px); }
+        100% { transform: translateX(40px); }
       }
 
-      @keyframes walkCycle2 {
-        0% { transform: translateX(750px) scaleX(-1); }
-        48% { transform: translateX(50px) scaleX(-1); }
-        50% { transform: translateX(50px) scaleX(1); }
-        98% { transform: translateX(750px) scaleX(1); }
-        100% { transform: translateX(750px) scaleX(-1); }
+      @keyframes moveAgent2 {
+        0% { transform: translateX(740px); }
+        48% { transform: translateX(60px); }
+        50% { transform: translateX(60px); }
+        98% { transform: translateX(740px); }
+        100% { transform: translateX(740px); }
       }
 
-      @keyframes walkCycle3 {
-        0% { transform: translateX(250px) scaleX(1); }
-        48% { transform: translateX(650px) scaleX(1); }
-        50% { transform: translateX(650px) scaleX(-1); }
-        98% { transform: translateX(250px) scaleX(-1); }
-        100% { transform: translateX(250px) scaleX(1); }
+      @keyframes moveAgent3 {
+        0% { transform: translateX(220px); }
+        48% { transform: translateX(620px); }
+        50% { transform: translateX(620px); }
+        98% { transform: translateX(220px); }
+        100% { transform: translateX(220px); }
       }
 
-      @keyframes walkCycle4 {
-        0% { transform: translateX(550px) scaleX(-1); }
-        48% { transform: translateX(150px) scaleX(-1); }
-        50% { transform: translateX(150px) scaleX(1); }
-        98% { transform: translateX(550px) scaleX(1); }
-        100% { transform: translateX(550px) scaleX(-1); }
+      @keyframes moveAgent4 {
+        0% { transform: translateX(560px); }
+        48% { transform: translateX(160px); }
+        50% { transform: translateX(160px); }
+        98% { transform: translateX(560px); }
+        100% { transform: translateX(560px); }
       }
 
-      /* Realistic Vertical Step Bobbing */
-      @keyframes realisticStep {
+      /* Body Direction Flip ONLY for Body Graphics (Never Text) */
+      @keyframes flipRight {
+        0%, 48% { transform: scaleX(1); }
+        50%, 98% { transform: scaleX(-1); }
+        100% { transform: scaleX(1); }
+      }
+
+      @keyframes flipLeft {
+        0%, 48% { transform: scaleX(-1); }
+        50%, 98% { transform: scaleX(1); }
+        100% { transform: scaleX(-1); }
+      }
+
+      /* Natural Step Bobbing */
+      @keyframes stepBob {
         0%, 100% { transform: translateY(0px); }
-        25% { transform: translateY(-4px) rotate(1.5deg); }
+        25% { transform: translateY(-5px); }
         50% { transform: translateY(0px); }
-        75% { transform: translateY(-4px) rotate(-1.5deg); }
+        75% { transform: translateY(-5px); }
       }
 
-      /* Articulated Dual-Leg Swing */
-      @keyframes legFront {
-        0%, 100% { transform: rotate(22deg); }
-        50% { transform: rotate(-22deg); }
+      /* Leg Swing Motion */
+      @keyframes legLeft {
+        0%, 100% { transform: rotate(20deg); }
+        50% { transform: rotate(-20deg); }
       }
 
-      @keyframes legBack {
-        0%, 100% { transform: rotate(-22deg); }
-        50% { transform: rotate(22deg); }
+      @keyframes legRight {
+        0%, 100% { transform: rotate(-20deg); }
+        50% { transform: rotate(20deg); }
       }
 
-      /* Ground Drop Shadow Scale */
+      /* Shadow Pulse */
       @keyframes shadowPulse {
         0%, 50%, 100% { transform: scaleX(1); opacity: 0.5; }
-        25%, 75% { transform: scaleX(0.75); opacity: 0.3; }
+        25%, 75% { transform: scaleX(0.7); opacity: 0.3; }
       }
 
-      .agent1-wrap { animation: walkCycle1 24s ease-in-out infinite; }
-      .agent2-wrap { animation: walkCycle2 30s ease-in-out infinite; }
-      .agent3-wrap { animation: walkCycle3 20s ease-in-out infinite; }
-      .agent4-wrap { animation: walkCycle4 26s ease-in-out infinite; }
+      .agent1-root { animation: moveAgent1 24s ease-in-out infinite; }
+      .agent2-root { animation: moveAgent2 30s ease-in-out infinite; }
+      .agent3-root { animation: moveAgent3 20s ease-in-out infinite; }
+      .agent4-root { animation: moveAgent4 26s ease-in-out infinite; }
 
-      .body-bob { animation: realisticStep 0.55s ease-in-out infinite; }
-      .leg-front { animation: legFront 0.55s ease-in-out infinite; transform-origin: top center; }
-      .leg-back { animation: legBack 0.55s ease-in-out infinite; transform-origin: top center; }
-      .shadow-anim { animation: shadowPulse 0.55s ease-in-out infinite; transform-origin: center; }
+      .body-flip-right { animation: flipRight 24s ease-in-out infinite; }
+      .body-flip-left { animation: flipLeft 30s ease-in-out infinite; }
+      .body-flip-right-3 { animation: flipRight 20s ease-in-out infinite; }
+      .body-flip-left-4 { animation: flipLeft 26s ease-in-out infinite; }
 
-      .team-title {
+      .bobbing { animation: stepBob 0.5s ease-in-out infinite; }
+      .leg-l { animation: legLeft 0.5s ease-in-out infinite; transform-origin: top center; }
+      .leg-r { animation: legRight 0.5s ease-in-out infinite; transform-origin: top center; }
+      .sh-anim { animation: shadowPulse 0.5s ease-in-out infinite; transform-origin: center; }
+
+      .section-header {
         font-family: 'Fira Code', 'Segoe UI', monospace;
         font-size: 13px;
         font-weight: 800;
@@ -128,14 +142,14 @@
         text-anchor: middle;
       }
 
-      .badge-name {
+      .badge-title {
         font-family: 'Fira Code', monospace;
         font-size: 11px;
         font-weight: bold;
         text-anchor: middle;
       }
 
-      .badge-task {
+      .badge-desc {
         font-family: 'Fira Code', monospace;
         font-size: 9px;
         fill: #94a3b8;
@@ -145,9 +159,9 @@
   </defs>
 
   <!-- Background Box -->
-  <rect width="850" height="240" rx="16" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5" />
+  <rect width="850" height="260" rx="16" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5" />
 
-  <!-- Subtle Cyber Floor Grid -->
+  <!-- Subtle Cyber Floor Grid Lines -->
   <g opacity="0.08" stroke="#38bdf8" stroke-width="1">
     <line x1="0" y1="50" x2="850" y2="50" />
     <line x1="0" y1="100" x2="850" y2="100" />
@@ -155,158 +169,202 @@
     <line x1="0" y1="200" x2="850" y2="200" />
   </g>
 
-  <!-- TEAM TITLE SECTION HEADER -->
+  <!-- TOP HEADER TITLE -->
   <g transform="translate(425, 32)">
-    <rect x="-170" y="-16" width="340" height="26" rx="13" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" filter="url(#shadow)" />
-    <text x="0" y="1" class="team-title">🤖 MEET OUR AUTONOMOUS AGENT TEAM</text>
+    <rect x="-170" y="-16" width="340" height="28" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" filter="url(#shadow)" />
+    <text x="0" y="2" class="section-header">🤖 MEET OUR AUTONOMOUS AGENT TEAM</text>
   </g>
 
   <!-- Walking Floor Runway -->
-  <ellipse cx="425" cy="205" rx="400" ry="8" fill="url(#floorTrack)" />
-  <line x1="25" y1="205" x2="825" y2="205" stroke="url(#floorTrack)" stroke-width="2.5" stroke-linecap="round" />
+  <ellipse cx="425" cy="220" rx="400" ry="8" fill="url(#floorTrack)" />
+  <line x1="25" y1="220" x2="825" y2="220" stroke="url(#floorTrack)" stroke-width="2.5" stroke-linecap="round" />
 
-  <!-- ==================== AGENT 1: Makima (Orchestrator) ==================== -->
-  <g class="agent1-wrap">
+  <!-- ==================== AGENT 1: MAKIMA (Lead Orchestrator) ==================== -->
+  <g class="agent1-root">
     <!-- Ground Shadow -->
-    <ellipse cx="0" cy="205" rx="22" ry="5" fill="#000000" class="shadow-anim" />
+    <ellipse cx="0" cy="220" rx="20" ry="5" fill="#000000" class="sh-anim" />
 
-    <g class="body-bob">
-      <!-- Holographic Status Badge -->
-      <g transform="translate(0, 95)">
-        <rect x="-65" y="-22" width="130" height="26" rx="6" fill="#0f172a" stroke="#f97316" stroke-width="1.2" opacity="0.95" filter="url(#shadow)" />
-        <text x="0" y="-8" class="badge-name" fill="#fb923c">⚡ Makima</text>
-        <text x="0" y="2" class="badge-task">Lead Orchestrator</text>
-      </g>
-
-      <!-- Realistic Bot Body -->
-      <g transform="translate(0, 160)" filter="url(#shadow)">
-        <!-- Articulated Legs -->
-        <g class="leg-back">
-          <rect x="-9" y="14" width="5" height="18" rx="2.5" fill="#c2410c" />
-          <ellipse cx="-6.5" cy="32" rx="4" ry="2" fill="#7c2d12" />
-        </g>
-        <g class="leg-front">
-          <rect x="4" y="14" width="5" height="18" rx="2.5" fill="#ea580c" />
-          <ellipse cx="6.5" cy="32" rx="4" ry="2" fill="#9a3412" />
-        </g>
-
-        <!-- Torso & Chassis -->
-        <rect x="-18" y="-18" width="36" height="34" rx="10" fill="url(#makimaGrad)" stroke="#ffedd5" stroke-width="1.5" />
-        <rect x="-14" y="-14" width="28" height="26" rx="7" fill="#1e1035" opacity="0.4" />
-
-        <!-- Claude Sparkle Core -->
-        <path d="M 0 -5 L 2 -1 L 6 0 L 2 1 L 0 5 L -2 1 L -6 0 L -2 -1 Z" fill="#ffffff" filter="url(#glowCyan)" />
-
-        <!-- Head Antenna & Pulsing Light -->
-        <line x1="0" y1="-18" x2="0" y2="-26" stroke="#f97316" stroke-width="2" />
-        <circle cx="0" cy="-27" r="3.5" fill="#ffedd5" />
-      </g>
-    </g>
-  </g>
-
-  <!-- ==================== AGENT 2: Rem (Researcher) ==================== -->
-  <g class="agent2-wrap">
-    <ellipse cx="0" cy="205" rx="24" ry="5" fill="#000000" class="shadow-anim" />
-
-    <g class="body-bob">
-      <!-- Holographic Status Badge -->
+    <g class="bobbing">
+      <!-- ALWAYS UNFLIPPED Text Badge Overhead -->
       <g transform="translate(0, 92)">
-        <rect x="-70" y="-22" width="140" height="26" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" opacity="0.95" filter="url(#shadow)" />
-        <text x="0" y="-8" class="badge-name" fill="#38bdf8">🦅 Rem</text>
-        <text x="0" y="2" class="badge-task">Web Researcher</text>
+        <rect x="-65" y="-22" width="130" height="26" rx="6" fill="#0f172a" stroke="#f97316" stroke-width="1.2" opacity="0.95" filter="url(#shadow)" />
+        <text x="0" y="-8" class="badge-title" fill="#fb923c">⚡ Makima</text>
+        <text x="0" y="2" class="badge-desc">Lead Orchestrator</text>
       </g>
 
-      <!-- Bot Chassis -->
-      <g transform="translate(0, 160)" filter="url(#shadow)">
-        <!-- Articulated Legs -->
-        <g class="leg-back">
-          <rect x="-10" y="14" width="5" height="18" rx="2.5" fill="#0369a1" />
-          <ellipse cx="-7.5" cy="32" rx="4" ry="2" fill="#0c4a6e" />
+      <!-- Flipped Body Graphic Only -->
+      <g class="body-flip-right">
+        <g transform="translate(0, 175)" filter="url(#shadow)">
+          <!-- Legs -->
+          <g class="leg-l">
+            <rect x="-7" y="10" width="4" height="22" rx="2" fill="#1e293b" />
+            <ellipse cx="-5" cy="31" rx="3.5" ry="2" fill="#0f172a" />
+          </g>
+          <g class="leg-r">
+            <rect x="3" y="10" width="4" height="22" rx="2" fill="#334155" />
+            <ellipse cx="5" cy="31" rx="3.5" ry="2" fill="#0f172a" />
+          </g>
+
+          <!-- Torso / Business Suit Coat -->
+          <path d="M -12 -10 L 12 -10 L 14 12 L -14 12 Z" fill="#0f172a" stroke="#f97316" stroke-width="1.2" />
+          <!-- White Shirt & Tie -->
+          <polygon points="-4,-10 4,-10 0,0" fill="#ffffff" />
+          <polygon points="-1.5,-6 1.5,-6 2,8 0,11 -2,8" fill="#ea580c" />
+
+          <!-- Head & Hair (Makima Orange Braid) -->
+          <!-- Long Braided Hair Back -->
+          <path d="M -10 -25 C -16 -15 -14 10 -18 20 C -12 10 -8 -15 -4 -25 Z" fill="url(#makimaHair)" />
+          <!-- Head Base -->
+          <circle cx="0" cy="-24" r="11" fill="#fff7ed" />
+          <!-- Orange Hair Front Bangs -->
+          <path d="M -12 -28 C -6 -20 0 -22 4 -28 C 8 -22 12 -25 12 -30 C 6 -34 -6 -34 -12 -28 Z" fill="url(#makimaHair)" />
+
+          <!-- Amber Eyes -->
+          <circle cx="4" cy="-24" r="2" fill="#f59e0b" />
+          <circle cx="4.5" cy="-24.5" r="0.7" fill="#ffffff" />
+
+          <!-- Golden Halo Ring Overhead -->
+          <ellipse cx="0" cy="-37" rx="9" ry="3" fill="none" stroke="#f59e0b" stroke-width="1.5" filter="url(#neonGlow)" />
         </g>
-        <g class="leg-front">
-          <rect x="5" y="14" width="5" height="18" rx="2.5" fill="#0284c7" />
-          <ellipse cx="7.5" cy="32" rx="4" ry="2" fill="#0369a1" />
-        </g>
-
-        <!-- Body -->
-        <rect x="-20" y="-18" width="40" height="34" rx="9" fill="url(#remGrad)" stroke="#e0f2fe" stroke-width="1.5" />
-
-        <!-- Cyber Visor -->
-        <rect x="-15" y="-10" width="30" height="14" rx="5" fill="#090d16" stroke="#38bdf8" stroke-width="1.2" />
-        <circle cx="-5" cy="-3" r="2.5" fill="#38bdf8" />
-        <circle cx="5" cy="-3" r="2.5" fill="#38bdf8" />
-
-        <!-- Cyber Wings -->
-        <path d="M -20 -4 L -29 -14 L -20 6 Z" fill="#38bdf8" opacity="0.9" />
-        <path d="M 20 -4 L 29 -14 L 20 6 Z" fill="#38bdf8" opacity="0.9" />
       </g>
     </g>
   </g>
 
-  <!-- ==================== AGENT 3: Zero Two (Lead Coder) ==================== -->
-  <g class="agent3-wrap">
-    <ellipse cx="0" cy="205" rx="22" ry="5" fill="#000000" class="shadow-anim" />
+  <!-- ==================== AGENT 2: REM (Web Researcher) ==================== -->
+  <g class="agent2-root">
+    <ellipse cx="0" cy="220" rx="20" ry="5" fill="#000000" class="sh-anim" />
 
-    <g class="body-bob">
-      <!-- Holographic Status Badge -->
-      <g transform="translate(0, 96)">
+    <g class="bobbing">
+      <!-- ALWAYS UNFLIPPED Text Badge Overhead -->
+      <g transform="translate(0, 92)">
+        <rect x="-65" y="-22" width="130" height="26" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" opacity="0.95" filter="url(#shadow)" />
+        <text x="0" y="-8" class="badge-title" fill="#38bdf8">🦅 Rem</text>
+        <text x="0" y="2" class="badge-desc">Web Researcher</text>
+      </g>
+
+      <!-- Flipped Body Graphic Only -->
+      <g class="body-flip-left">
+        <g transform="translate(0, 175)" filter="url(#shadow)">
+          <!-- Legs -->
+          <g class="leg-l">
+            <rect x="-7" y="10" width="4" height="22" rx="2" fill="#0284c7" />
+            <ellipse cx="-5" cy="31" rx="3.5" ry="2" fill="#0369a1" />
+          </g>
+          <g class="leg-r">
+            <rect x="3" y="10" width="4" height="22" rx="2" fill="#38bdf8" />
+            <ellipse cx="5" cy="31" rx="3.5" ry="2" fill="#0369a1" />
+          </g>
+
+          <!-- Cyber Maid / Researcher Outfit -->
+          <path d="M -11 -10 L 11 -10 L 15 12 L -15 12 Z" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" />
+          <path d="M -8 -10 L 8 -10 L 5 4 L -5 4 Z" fill="#e0f2fe" />
+
+          <!-- Blue Hair & Head -->
+          <circle cx="0" cy="-24" r="11" fill="#fff7ed" />
+          <!-- Blue Twin-Bangs (Rem Style) -->
+          <path d="M -12 -28 C -6 -18 -1 -15 2 -26 C 6 -16 12 -22 12 -30 C 4 -34 -6 -34 -12 -28 Z" fill="url(#remHair)" />
+          <path d="M -13 -26 C -14 -12 -12 2 -15 10 C -10 2 -10 -15 -10 -26 Z" fill="url(#remHair)" />
+
+          <!-- Cyan Glowing Eyes -->
+          <circle cx="4" cy="-23" r="2.2" fill="#00f2fe" />
+          <circle cx="4.5" cy="-23.5" r="0.7" fill="#ffffff" />
+
+          <!-- Pink Ribbon Hair Clip -->
+          <rect x="-8" y="-31" width="6" height="4" rx="1" fill="#ec4899" />
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== AGENT 3: ZERO TWO (Lead Systems Coder) ==================== -->
+  <g class="agent3-root">
+    <ellipse cx="0" cy="220" rx="20" ry="5" fill="#000000" class="sh-anim" />
+
+    <g class="bobbing">
+      <!-- ALWAYS UNFLIPPED Text Badge Overhead -->
+      <g transform="translate(0, 92)">
         <rect x="-65" y="-22" width="130" height="26" rx="6" fill="#0f172a" stroke="#f472b6" stroke-width="1.2" opacity="0.95" filter="url(#shadow)" />
-        <text x="0" y="-8" class="badge-name" fill="#f472b6">🌸 Zero Two</text>
-        <text x="0" y="2" class="badge-task">Lead Systems Coder</text>
+        <text x="0" y="-8" class="badge-title" fill="#f472b6">🌸 Zero Two</text>
+        <text x="0" y="2" class="badge-desc">Lead Systems Coder</text>
       </g>
 
-      <!-- Bot Chassis -->
-      <g transform="translate(0, 160)" filter="url(#shadow)">
-        <g class="leg-back">
-          <rect x="-8" y="14" width="5" height="18" rx="2.5" fill="#9f1239" />
-          <ellipse cx="-5.5" cy="32" rx="4" ry="2" fill="#4c0519" />
-        </g>
-        <g class="leg-front">
-          <rect x="3" y="14" width="5" height="18" rx="2.5" fill="#e11d48" />
-          <ellipse cx="5.5" cy="32" rx="4" ry="2" fill="#881337" />
-        </g>
+      <!-- Flipped Body Graphic Only -->
+      <g class="body-flip-right-3">
+        <g transform="translate(0, 175)" filter="url(#shadow)">
+          <!-- Legs -->
+          <g class="leg-l">
+            <rect x="-7" y="10" width="4" height="22" rx="2" fill="#9f1239" />
+            <ellipse cx="-5" cy="31" rx="3.5" ry="2" fill="#4c0519" />
+          </g>
+          <g class="leg-r">
+            <rect x="3" y="10" width="4" height="22" rx="2" fill="#e11d48" />
+            <ellipse cx="5" cy="31" rx="3.5" ry="2" fill="#881337" />
+          </g>
 
-        <!-- Body -->
-        <rect x="-17" y="-17" width="34" height="34" rx="8" fill="url(#zeroTwoGrad)" stroke="#ffe4e6" stroke-width="1.5" transform="rotate(45)" />
+          <!-- Red Pilot Uniform -->
+          <path d="M -12 -10 L 12 -10 L 14 12 L -14 12 Z" fill="#e11d48" stroke="#ffe4e6" stroke-width="1.2" />
+          <line x1="0" y1="-10" x2="0" y2="12" stroke="#ffffff" stroke-width="1.5" />
 
-        <!-- Cute Eyes -->
-        <circle cx="-5" cy="-2" r="3.5" fill="#ffffff" />
-        <circle cx="5" cy="-2" r="3.5" fill="#ffffff" />
-        <circle cx="-4" cy="-2" r="1.8" fill="#881337" />
-        <circle cx="6" cy="-2" r="1.8" fill="#881337" />
+          <!-- Pink Hair & Head -->
+          <!-- Long Pink Hair Back -->
+          <path d="M -11 -25 C -15 -10 -15 12 -18 22 C -11 12 -7 -10 -3 -25 Z" fill="url(#zeroTwoHair)" />
+          <circle cx="0" cy="-24" r="11" fill="#fff7ed" />
+          <!-- Pink Hair Front Bangs -->
+          <path d="M -12 -28 C -6 -20 0 -22 4 -28 C 8 -20 12 -25 12 -30 C 6 -34 -6 -34 -12 -28 Z" fill="url(#zeroTwoHair)" />
+
+          <!-- Emerald Green Eyes (Zero Two Signature) -->
+          <circle cx="4" cy="-24" r="2.2" fill="#10b981" />
+          <circle cx="4.5" cy="-24.5" r="0.7" fill="#ffffff" />
+          <!-- Red Eyeliner Accent -->
+          <path d="M 2 -27 Q 6 -27 7 -25" fill="none" stroke="#e11d48" stroke-width="1.2" />
+
+          <!-- Red Cyber Horns -->
+          <polygon points="-5,-31 -9,-40 -2,-34" fill="#e11d48" filter="url(#neonGlow)" />
+          <polygon points="5,-31 9,-40 2,-34" fill="#e11d48" filter="url(#neonGlow)" />
+        </g>
       </g>
     </g>
   </g>
 
-  <!-- ==================== AGENT 4: Hinata (Security Auditor) ==================== -->
-  <g class="agent4-wrap">
-    <ellipse cx="0" cy="205" rx="22" ry="5" fill="#000000" class="shadow-anim" />
+  <!-- ==================== AGENT 4: HINATA (Security Auditor) ==================== -->
+  <g class="agent4-root">
+    <ellipse cx="0" cy="220" rx="20" ry="5" fill="#000000" class="sh-anim" />
 
-    <g class="body-bob">
-      <!-- Holographic Status Badge -->
-      <g transform="translate(0, 94)">
-        <rect x="-65" y="-22" width="130" height="26" rx="6" fill="#0f172a" stroke="#34d399" stroke-width="1.2" opacity="0.95" filter="url(#shadow)" />
-        <text x="0" y="-8" class="badge-name" fill="#34d399">🧠 Hinata</text>
-        <text x="0" y="2" class="badge-task">Security Auditor</text>
+    <g class="bobbing">
+      <!-- ALWAYS UNFLIPPED Text Badge Overhead -->
+      <g transform="translate(0, 92)">
+        <rect x="-65" y="-22" width="130" height="26" rx="6" fill="#0f172a" stroke="#a78bfa" stroke-width="1.2" opacity="0.95" filter="url(#shadow)" />
+        <text x="0" y="-8" class="badge-title" fill="#c084fc">🧠 Hinata</text>
+        <text x="0" y="2" class="badge-desc">Security Auditor</text>
       </g>
 
-      <!-- Bot Chassis -->
-      <g transform="translate(0, 160)" filter="url(#shadow)">
-        <g class="leg-back">
-          <rect x="-9" y="14" width="5" height="18" rx="2.5" fill="#047857" />
-          <ellipse cx="-6.5" cy="32" rx="4" ry="2" fill="#022c22" />
-        </g>
-        <g class="leg-front">
-          <rect x="4" y="14" width="5" height="18" rx="2.5" fill="#10b981" />
-          <ellipse cx="6.5" cy="32" rx="4" ry="2" fill="#065f46" />
-        </g>
+      <!-- Flipped Body Graphic Only -->
+      <g class="body-flip-left-4">
+        <g transform="translate(0, 175)" filter="url(#shadow)">
+          <!-- Legs -->
+          <g class="leg-l">
+            <rect x="-7" y="10" width="4" height="22" rx="2" fill="#4c1d95" />
+            <ellipse cx="-5" cy="31" rx="3.5" ry="2" fill="#2e1065" />
+          </g>
+          <g class="leg-r">
+            <rect x="3" y="10" width="4" height="22" rx="2" fill="#7c3aed" />
+            <ellipse cx="5" cy="31" rx="3.5" ry="2" fill="#2e1065" />
+          </g>
 
-        <!-- Body -->
-        <rect x="-18" y="-18" width="36" height="34" rx="9" fill="url(#hinataGrad)" stroke="#ecfdf5" stroke-width="1.5" />
+          <!-- Lavender Cyber Jacket -->
+          <path d="M -13 -10 L 13 -10 L 15 12 L -15 12 Z" fill="#6d28d9" stroke="#ddd6fe" stroke-width="1.2" />
+          <path d="M -5 -10 L 5 -10 L 3 12 L -3 12 Z" fill="#f3e8ff" />
 
-        <!-- Live Terminal Screen -->
-        <rect x="-13" y="-11" width="26" height="18" rx="4" fill="#022c22" stroke="#34d399" stroke-width="1" />
-        <text x="0" y="2" font-family="'Fira Code', monospace" font-size="9" font-weight="bold" fill="#34d399" text-anchor="middle">&gt;_ai</text>
+          <!-- Dark Indigo Hair & Head -->
+          <circle cx="0" cy="-24" r="11" fill="#fff7ed" />
+          <!-- Dark Hime-Cut Hair Bangs (Hinata Style) -->
+          <path d="M -12 -28 C -7 -18 -2 -18 3 -28 C 7 -18 12 -22 12 -30 C 4 -34 -6 -34 -12 -28 Z" fill="url(#hinataHair)" />
+          <path d="M -12 -26 C -13 -12 -12 2 -14 12 C -9 2 -9 -15 -9 -26 Z" fill="url(#hinataHair)" />
+
+          <!-- Lavender/White Byakugan Eyes -->
+          <circle cx="4" cy="-23" r="2.4" fill="#ede9fe" stroke="#c084fc" stroke-width="0.8" />
+          <circle cx="4.5" cy="-23.5" r="0.7" fill="#ffffff" />
+        </g>
       </g>
     </g>
   </g>
