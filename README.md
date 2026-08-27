@@ -9,7 +9,7 @@
   <p align="center">
     <a href="https://github.com/menotbobbybrown"><img src="https://img.shields.io/github/followers/menotbobbybrown?style=for-the-badge&logo=github&color=0ea5e9&labelColor=0f172a" alt="GitHub Followers" /></a>
     <a href="https://github.com/menotbobbybrown?tab=stars"><img src="https://img.shields.io/github/stars/menotbobbybrown?style=for-the-badge&logo=github&color=eab308&labelColor=0f172a" alt="GitHub Stars" /></a>
-    <a href="https://www.npmjs.com/~menotbobbybrown"><img src="https://img.shields.io/badge/npm-packages-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm Profile" /></a>
+    <a href="https://www.npmjs.com/~rabeelashraf"><img src="https://img.shields.io/badge/npm-packages-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm Profile" /></a>
     <img src="https://komarev.com/ghpvc/?username=menotbobbybrown&style=for-the-badge&color=8b5cf6" alt="Profile Views" />
   </p>
 
@@ -49,6 +49,7 @@ Our ecosystem and operations are autonomously powered by specialized AI agents:
 identity:
   handle: menotbobbybrown
   npm_organization: "@modelnorth"
+  npm_user: "rabeelashraf"
   role: AI Systems Engineer & Open Source Architect
   focus: Autonomous AI Agents, Agentic Tooling, Security & Infrastructure
   passions: High-performance agent runtimes, LLM memory models, reverse engineering
@@ -128,7 +129,7 @@ Explore and install our ecosystem packages directly via `npm` or `npx`:
   
   <p align="center">
     <a href="https://github.com/menotbobbybrown"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-    <a href="https://www.npmjs.com/~menotbobbybrown"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" /></a>
+    <a href="https://www.npmjs.com/~rabeelashraf"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" /></a>
     <a href="https://www.npmjs.com/org/modelnorth"><img src="https://img.shields.io/badge/npm_org-@modelnorth-red?style=for-the-badge&logo=npm&logoColor=white" alt="npm org" /></a>
   </p>
 </div>
