@@ -39,106 +39,23 @@ identity:
 
 Explore and install our ecosystem packages directly via `npm` or `npx`:
 
-<table>
-  <thead>
-    <tr>
-      <th>Package Name</th>
-      <th>Install Command</th>
-      <th>Description</th>
-      <th>Badges</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b><a href="https://www.npmjs.com/package/create-dsh-app">create-dsh-app</a></b></td>
-      <td><code>npx create-dsh-app &lt;my-agent&gt;</code></td>
-      <td>1-line scaffolding generator for DeepSeek Harness AI agents.</td>
-      <td>
-        <a href="https://www.npmjs.com/package/create-dsh-app"><img src="https://img.shields.io/npm/v/create-dsh-app?style=flat-square&color=red" alt="npm version" /></a>
-      </td>
-    </tr>
-    <tr>
-      <td><b><a href="https://www.npmjs.com/package/@modelnorth/dsh-plugin-memory">@modelnorth/dsh-plugin-memory</a></b></td>
-      <td><code>npm i @modelnorth/dsh-plugin-memory</code></td>
-      <td>Persistent Knowledge Graph & long-term memory engine for AI agents.</td>
-      <td>
-        <a href="https://www.npmjs.com/package/@modelnorth/dsh-plugin-memory"><img src="https://img.shields.io/npm/v/@modelnorth/dsh-plugin-memory?style=flat-square&color=red" alt="npm version" /></a>
-      </td>
-    </tr>
-    <tr>
-      <td><b><a href="https://www.npmjs.com/package/@modelnorth/dsh-plugin-browser">@modelnorth/dsh-plugin-browser</a></b></td>
-      <td><code>npm i @modelnorth/dsh-plugin-browser</code></td>
-      <td>Native web browser automation agent plugin powered by Playwright.</td>
-      <td>
-        <a href="https://www.npmjs.com/package/@modelnorth/dsh-plugin-browser"><img src="https://img.shields.io/npm/v/@modelnorth/dsh-plugin-browser?style=flat-square&color=red" alt="npm version" /></a>
-      </td>
-    </tr>
-    <tr>
-      <td><b><a href="https://www.npmjs.com/package/dsh-plugin-mcp">dsh-plugin-mcp</a></b></td>
-      <td><code>npm i dsh-plugin-mcp</code></td>
-      <td>Universal Model Context Protocol (MCP) bridge plugin.</td>
-      <td>
-        <a href="https://www.npmjs.com/package/dsh-plugin-mcp"><img src="https://img.shields.io/npm/v/dsh-plugin-mcp?style=flat-square&color=red" alt="npm version" /></a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Package Name | Install Command | Description | Badges |
+| :--- | :--- | :--- | :--- |
+| **[`create-dsh-app`](https://www.npmjs.com/package/create-dsh-app)** | `npx create-dsh-app <my-agent>` | 1-line scaffolding generator for DeepSeek Harness AI agents. | <a href="https://www.npmjs.com/package/create-dsh-app"><img src="https://img.shields.io/badge/npm-v1.0.0-red?style=flat-square&logo=npm" alt="npm version" /></a> |
+| **[`@modelnorth/dsh-plugin-memory`](https://www.npmjs.com/package/@modelnorth/dsh-plugin-memory)** | `npm i @modelnorth/dsh-plugin-memory` | Persistent Knowledge Graph & long-term memory engine. | <a href="https://www.npmjs.com/package/@modelnorth/dsh-plugin-memory"><img src="https://img.shields.io/badge/npm-v1.0.0-red?style=flat-square&logo=npm" alt="npm version" /></a> |
+| **[`@modelnorth/dsh-plugin-browser`](https://www.npmjs.com/package/@modelnorth/dsh-plugin-browser)** | `npm i @modelnorth/dsh-plugin-browser` | Native web browser automation agent plugin powered by Playwright. | <a href="https://www.npmjs.com/package/@modelnorth/dsh-plugin-browser"><img src="https://img.shields.io/badge/npm-v1.0.0-red?style=flat-square&logo=npm" alt="npm version" /></a> |
+| **[`dsh-plugin-mcp`](https://www.npmjs.com/package/dsh-plugin-mcp)** | `npm i dsh-plugin-mcp` | Universal Model Context Protocol (MCP) bridge plugin. | <a href="https://www.npmjs.com/package/dsh-plugin-mcp"><img src="https://img.shields.io/badge/npm-v1.0.0-red?style=flat-square&logo=npm" alt="npm version" /></a> |
 
 ---
 
 ### 🚀 Featured Open-Source Repositories
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🔌 DeepSeek Harness (dsh)</h3>
-      <p align="center"><i>Everything is a Plugin</i></p>
-      <p>A modular, high-performance scaffolding & plugin ecosystem for autonomous AI agents.</p>
-      <ul>
-        <li><code>create-dsh-app</code> — 1-line agent scaffolding generator.</li>
-        <li><code>dsh-plugin-memory</code> — Persistent Knowledge Graph & long-term memory engine.</li>
-        <li><code>dsh-plugin-browser</code> — Native headless web automation agent plugin.</li>
-        <li><code>dsh-plugin-mcp</code> — Universal Model Context Protocol (MCP) bridge.</li>
-      </ul>
-      <p align="center">
-        <a href="https://github.com/menotbobbybrown/create-dsh-app"><code>create-dsh-app</code></a> • 
-        <a href="https://github.com/menotbobbybrown/dsh-plugin-memory"><code>dsh-plugin-memory</code></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🤖 Claude-Ops</h3>
-      <p align="center"><i>Autonomous Business OS for Claude Code</i></p>
-      <p>Autonomous operational workspace featuring 57 specialized skills, 21 AI agents, and smart background daemons.</p>
-      <ul>
-        <li>Unified multi-channel inbox (WhatsApp, Email, Slack, Telegram).</li>
-        <li>Autonomous PR review, merge, & canary deployment loops.</li>
-        <li>Full APM monitoring & e-commerce automation pipeline.</li>
-      </ul>
-      <p align="center">
-        <a href="https://github.com/menotbobbybrown/claude-ops"><code>Explore Repository →</code></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">📜 System Prompts Leaks</h3>
-      <p align="center"><i>Frontier AI Model Security Research</i></p>
-      <p>Comprehensive, continuously updated archive & analysis of system prompts from SOTA models (Anthropic Claude, OpenAI ChatGPT/Codex, Google Gemini, Grok, Cursor, & Antigravity).</p>
-      <p align="center">
-        <a href="https://github.com/menotbobbybrown/system_prompts_leaks"><code>Explore Repository →</code></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🧠 Prime Agent & TrueForge</h3>
-      <p align="center"><i>Self-Improving Agent Runtimes</i></p>
-      <p>Self-improving Recursive Language Model (RLM) agent harness for long-running coding workflows and high-reliability autonomous task execution.</p>
-      <p align="center">
-        <a href="https://github.com/menotbobbybrown/prime-agent"><code>prime-agent</code></a> • 
-        <a href="https://github.com/menotbobbybrown/trueforge"><code>trueforge</code></a>
-      </p>
-    </td>
-  </tr>
-</table>
+| Project | Category | Overview & Links |
+| :--- | :--- | :--- |
+| **🔌 DeepSeek Harness (dsh)** | *Agent Framework* | Modular, high-performance scaffolding & plugin ecosystem for autonomous AI agents.<br />👉 [`create-dsh-app`](https://github.com/menotbobbybrown/create-dsh-app) • [`dsh-plugin-memory`](https://github.com/menotbobbybrown/dsh-plugin-memory) |
+| **🤖 Claude-Ops** | *Business OS* | Autonomous workspace featuring 57 skills, 21 agents, multi-channel inbox, & automated PR pipelines.<br />👉 [`menotbobbybrown/claude-ops`](https://github.com/menotbobbybrown/claude-ops) |
+| **📜 System Prompts Leaks** | *Security Research* | Archive & structural analysis of system prompts from SOTA models (Claude, ChatGPT, Gemini, Grok).<br />👉 [`menotbobbybrown/system_prompts_leaks`](https://github.com/menotbobbybrown/system_prompts_leaks) |
+| **🧠 Prime Agent & TrueForge** | *AI Runtimes* | Self-improving Recursive Language Model (RLM) agent harness for autonomous coding workflows.<br />👉 [`prime-agent`](https://github.com/menotbobbybrown/prime-agent) • [`trueforge`](https://github.com/menotbobbybrown/trueforge) |
 
 ---
 
@@ -166,22 +83,15 @@ Explore and install our ecosystem packages directly via `npm` or `npx`:
 
 ### 📊 GitHub Analytics
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=menotbobbybrown&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="menotbobbybrown's GitHub Stats" />
-      </td>
-      <td>
-        <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=menotbobbybrown&layout=compact&theme=tokyonight&hide=html,css&card_width=350" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=menotbobbybrown&show_icons=true&theme=tokyonight&hide_border=false" alt="menotbobbybrown GitHub Stats" width="48%" />
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=menotbobbybrown&theme=tokyonight&layout=compact&hide_border=false" alt="Top Languages" width="48%" />
+</p>
 
-  <br />
-
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=menotbobbybrown&theme=tokyonight&hide_border=false" alt="Streak Stats" />
-</div>
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=menotbobbybrown&theme=tokyonight&hide_border=false" alt="Streak Stats" width="97%" />
+</p>
 
 ---
 
