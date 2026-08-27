@@ -9,6 +9,7 @@
   <p align="center">
     <a href="https://github.com/menotbobbybrown"><img src="https://img.shields.io/github/followers/menotbobbybrown?style=for-the-badge&logo=github&color=0ea5e9&labelColor=0f172a" alt="GitHub Followers" /></a>
     <a href="https://github.com/menotbobbybrown?tab=stars"><img src="https://img.shields.io/github/stars/menotbobbybrown?style=for-the-badge&logo=github&color=eab308&labelColor=0f172a" alt="GitHub Stars" /></a>
+    <a href="https://www.npmjs.com/~menotbobbybrown"><img src="https://img.shields.io/badge/npm-packages-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm Profile" /></a>
     <img src="https://komarev.com/ghpvc/?username=menotbobbybrown&style=for-the-badge&color=8b5cf6" alt="Profile Views" />
   </p>
 
@@ -21,6 +22,7 @@
 ```yaml
 identity:
   handle: menotbobbybrown
+  npm_organization: "@modelnorth"
   role: AI Systems Engineer & Open Source Architect
   focus: Autonomous AI Agents, Agentic Tooling, Security & Infrastructure
   passions: High-performance agent runtimes, LLM memory models, reverse engineering
@@ -33,7 +35,58 @@ identity:
 
 ---
 
-### 🚀 Key Open-Source Contributions & Projects
+### 📦 Official npm Packages
+
+Explore and install our ecosystem packages directly via `npm` or `npx`:
+
+<table>
+  <thead>
+    <tr>
+      <th>Package Name</th>
+      <th>Install Command</th>
+      <th>Description</th>
+      <th>Badges</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b><a href="https://www.npmjs.com/package/create-dsh-app">create-dsh-app</a></b></td>
+      <td><code>npx create-dsh-app &lt;my-agent&gt;</code></td>
+      <td>1-line scaffolding generator for DeepSeek Harness AI agents.</td>
+      <td>
+        <a href="https://www.npmjs.com/package/create-dsh-app"><img src="https://img.shields.io/npm/v/create-dsh-app?style=flat-square&color=red" alt="npm version" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td><b><a href="https://www.npmjs.com/package/@modelnorth/dsh-plugin-memory">@modelnorth/dsh-plugin-memory</a></b></td>
+      <td><code>npm i @modelnorth/dsh-plugin-memory</code></td>
+      <td>Persistent Knowledge Graph & long-term memory engine for AI agents.</td>
+      <td>
+        <a href="https://www.npmjs.com/package/@modelnorth/dsh-plugin-memory"><img src="https://img.shields.io/npm/v/@modelnorth/dsh-plugin-memory?style=flat-square&color=red" alt="npm version" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td><b><a href="https://www.npmjs.com/package/@modelnorth/dsh-plugin-browser">@modelnorth/dsh-plugin-browser</a></b></td>
+      <td><code>npm i @modelnorth/dsh-plugin-browser</code></td>
+      <td>Native web browser automation agent plugin powered by Playwright.</td>
+      <td>
+        <a href="https://www.npmjs.com/package/@modelnorth/dsh-plugin-browser"><img src="https://img.shields.io/npm/v/@modelnorth/dsh-plugin-browser?style=flat-square&color=red" alt="npm version" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td><b><a href="https://www.npmjs.com/package/dsh-plugin-mcp">dsh-plugin-mcp</a></b></td>
+      <td><code>npm i dsh-plugin-mcp</code></td>
+      <td>Universal Model Context Protocol (MCP) bridge plugin.</td>
+      <td>
+        <a href="https://www.npmjs.com/package/dsh-plugin-mcp"><img src="https://img.shields.io/npm/v/dsh-plugin-mcp?style=flat-square&color=red" alt="npm version" /></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### 🚀 Featured Open-Source Repositories
 
 <table>
   <tr>
@@ -139,5 +192,7 @@ identity:
   
   <p align="center">
     <a href="https://github.com/menotbobbybrown"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    <a href="https://www.npmjs.com/~menotbobbybrown"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" /></a>
+    <a href="https://www.npmjs.com/org/modelnorth"><img src="https://img.shields.io/badge/npm_org-@modelnorth-red?style=for-the-badge&logo=npm&logoColor=white" alt="npm org" /></a>
   </p>
 </div>
