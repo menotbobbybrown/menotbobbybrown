@@ -84,13 +84,13 @@ Explore and install our ecosystem packages directly via `npm` or `npx`:
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=menotbobbybrown&show_icons=true&theme=tokyonight&hide_border=false" alt="menotbobbybrown GitHub Stats" width="48%" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=menotbobbybrown&theme=tokyonight&layout=compact&hide_border=false" alt="Top Languages" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=menotbobbybrown&theme=tokyonight" alt="menotbobbybrown GitHub Summary" width="98%" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=menotbobbybrown&theme=tokyonight&hide_border=false" alt="Streak Stats" width="97%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=menotbobbybrown&theme=tokyonight" alt="Repositories Per Language" width="48%" />
+  &nbsp;
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=menotbobbybrown&theme=tokyonight" alt="Most Commit Language" width="48%" />
 </p>
 
 ---
