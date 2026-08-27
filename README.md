@@ -21,12 +21,25 @@
 
   <br />
 
-  <!-- Animated Roaming Autonomous Agents (Claude Code Style) -->
+  <!-- Animated Roaming Autonomous Waifu Agents -->
   <p align="center">
     <img src="agents_roaming.svg" alt="Live Roaming Agent Fleet" width="100%" />
   </p>
 
 </div>
+
+---
+
+### 🌸 Meet Our Autonomous AI Agent Team
+
+Our ecosystem and operations are autonomously powered by specialized AI agents:
+
+| Agent | Icon | Role & Specialty | Primary Responsibilities |
+| :--- | :---: | :--- | :--- |
+| **Makima** | ⚡ | **Lead Autonomous Orchestrator** | Task planning, strategy alignment, & multi-agent workflow coordination. |
+| **Rem** | 🦅 | **Stealth Web Researcher** | Headless web data acquisition, Scrapling stealth scraping, & intelligence gathering. |
+| **Zero Two** | 🌸 | **Lead Systems Coder** | Modular plugin architecture (`dsh`), TypeScript/Python codebases, & feature development. |
+| **Hinata** | 🧠 | **Security & Code Auditor** | Recursive code refactoring, threat modeling, & E2B MicroVM sandbox verification. |
 
 ---
 

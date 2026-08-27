@@ -8,25 +8,25 @@
     </linearGradient>
 
     <!-- Metallic & Neon Gradients -->
-    <linearGradient id="claudeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="makimaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#fdba74" />
       <stop offset="50%" stop-color="#f97316" />
       <stop offset="100%" stop-color="#ea580c" />
     </linearGradient>
 
-    <linearGradient id="shaheenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="remGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#7dd3fc" />
       <stop offset="50%" stop-color="#0284c7" />
       <stop offset="100%" stop-color="#0369a1" />
     </linearGradient>
 
-    <linearGradient id="dshGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#e9d5ff" />
-      <stop offset="50%" stop-color="#a855f7" />
-      <stop offset="100%" stop-color="#6b21a8" />
+    <linearGradient id="zeroTwoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f472b6" />
+      <stop offset="50%" stop-color="#e11d48" />
+      <stop offset="100%" stop-color="#9f1239" />
     </linearGradient>
 
-    <linearGradient id="primeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="hinataGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#6ee7b7" />
       <stop offset="50%" stop-color="#10b981" />
       <stop offset="100%" stop-color="#047857" />
@@ -36,7 +36,7 @@
     <linearGradient id="floorTrack" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1" />
       <stop offset="30%" stop-color="#f97316" stop-opacity="0.7" />
-      <stop offset="70%" stop-color="#a855f7" stop-opacity="0.7" />
+      <stop offset="70%" stop-color="#e11d48" stop-opacity="0.7" />
       <stop offset="100%" stop-color="#10b981" stop-opacity="0.1" />
     </linearGradient>
 
@@ -165,7 +165,7 @@
   <ellipse cx="425" cy="205" rx="400" ry="8" fill="url(#floorTrack)" />
   <line x1="25" y1="205" x2="825" y2="205" stroke="url(#floorTrack)" stroke-width="2.5" stroke-linecap="round" />
 
-  <!-- ==================== AGENT 1: Claude-Ops ==================== -->
+  <!-- ==================== AGENT 1: Makima (Orchestrator) ==================== -->
   <g class="agent1-wrap">
     <!-- Ground Shadow -->
     <ellipse cx="0" cy="205" rx="22" ry="5" fill="#000000" class="shadow-anim" />
@@ -174,8 +174,8 @@
       <!-- Holographic Status Badge -->
       <g transform="translate(0, 95)">
         <rect x="-65" y="-22" width="130" height="26" rx="6" fill="#0f172a" stroke="#f97316" stroke-width="1.2" opacity="0.95" filter="url(#shadow)" />
-        <text x="0" y="-8" class="badge-name" fill="#fb923c">⚡ Claude-Ops</text>
-        <text x="0" y="2" class="badge-task">Active • Merging PR #142</text>
+        <text x="0" y="-8" class="badge-name" fill="#fb923c">⚡ Makima</text>
+        <text x="0" y="2" class="badge-task">Lead Orchestrator</text>
       </g>
 
       <!-- Realistic Bot Body -->
@@ -191,7 +191,7 @@
         </g>
 
         <!-- Torso & Chassis -->
-        <rect x="-18" y="-18" width="36" height="34" rx="10" fill="url(#claudeGrad)" stroke="#ffedd5" stroke-width="1.5" />
+        <rect x="-18" y="-18" width="36" height="34" rx="10" fill="url(#makimaGrad)" stroke="#ffedd5" stroke-width="1.5" />
         <rect x="-14" y="-14" width="28" height="26" rx="7" fill="#1e1035" opacity="0.4" />
 
         <!-- Claude Sparkle Core -->
@@ -204,7 +204,7 @@
     </g>
   </g>
 
-  <!-- ==================== AGENT 2: Shaheen-Core ==================== -->
+  <!-- ==================== AGENT 2: Rem (Researcher) ==================== -->
   <g class="agent2-wrap">
     <ellipse cx="0" cy="205" rx="24" ry="5" fill="#000000" class="shadow-anim" />
 
@@ -212,8 +212,8 @@
       <!-- Holographic Status Badge -->
       <g transform="translate(0, 92)">
         <rect x="-70" y="-22" width="140" height="26" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" opacity="0.95" filter="url(#shadow)" />
-        <text x="0" y="-8" class="badge-name" fill="#38bdf8">🦅 Shaheen-Core</text>
-        <text x="0" y="2" class="badge-task">Active • Stealth MicroVM</text>
+        <text x="0" y="-8" class="badge-name" fill="#38bdf8">🦅 Rem</text>
+        <text x="0" y="2" class="badge-task">Web Researcher</text>
       </g>
 
       <!-- Bot Chassis -->
@@ -229,56 +229,56 @@
         </g>
 
         <!-- Body -->
-        <rect x="-20" y="-18" width="40" height="34" rx="9" fill="url(#shaheenGrad)" stroke="#e0f2fe" stroke-width="1.5" />
+        <rect x="-20" y="-18" width="40" height="34" rx="9" fill="url(#remGrad)" stroke="#e0f2fe" stroke-width="1.5" />
 
         <!-- Cyber Visor -->
         <rect x="-15" y="-10" width="30" height="14" rx="5" fill="#090d16" stroke="#38bdf8" stroke-width="1.2" />
         <circle cx="-5" cy="-3" r="2.5" fill="#38bdf8" />
         <circle cx="5" cy="-3" r="2.5" fill="#38bdf8" />
 
-        <!-- Eagle Cyber Wings -->
+        <!-- Cyber Wings -->
         <path d="M -20 -4 L -29 -14 L -20 6 Z" fill="#38bdf8" opacity="0.9" />
         <path d="M 20 -4 L 29 -14 L 20 6 Z" fill="#38bdf8" opacity="0.9" />
       </g>
     </g>
   </g>
 
-  <!-- ==================== AGENT 3: DSH-Scout ==================== -->
+  <!-- ==================== AGENT 3: Zero Two (Lead Coder) ==================== -->
   <g class="agent3-wrap">
     <ellipse cx="0" cy="205" rx="22" ry="5" fill="#000000" class="shadow-anim" />
 
     <g class="body-bob">
       <!-- Holographic Status Badge -->
       <g transform="translate(0, 96)">
-        <rect x="-65" y="-22" width="130" height="26" rx="6" fill="#0f172a" stroke="#c084fc" stroke-width="1.2" opacity="0.95" filter="url(#shadow)" />
-        <text x="0" y="-8" class="badge-name" fill="#c084fc">🔌 DSH-Scout</text>
-        <text x="0" y="2" class="badge-task">Active • Knowledge Graph</text>
+        <rect x="-65" y="-22" width="130" height="26" rx="6" fill="#0f172a" stroke="#f472b6" stroke-width="1.2" opacity="0.95" filter="url(#shadow)" />
+        <text x="0" y="-8" class="badge-name" fill="#f472b6">🌸 Zero Two</text>
+        <text x="0" y="2" class="badge-task">Lead Systems Coder</text>
       </g>
 
       <!-- Bot Chassis -->
       <g transform="translate(0, 160)" filter="url(#shadow)">
         <g class="leg-back">
-          <rect x="-8" y="14" width="5" height="18" rx="2.5" fill="#6b21a8" />
-          <ellipse cx="-5.5" cy="32" rx="4" ry="2" fill="#3b0764" />
+          <rect x="-8" y="14" width="5" height="18" rx="2.5" fill="#9f1239" />
+          <ellipse cx="-5.5" cy="32" rx="4" ry="2" fill="#4c0519" />
         </g>
         <g class="leg-front">
-          <rect x="3" y="14" width="5" height="18" rx="2.5" fill="#a855f7" />
-          <ellipse cx="5.5" cy="32" rx="4" ry="2" fill="#581c87" />
+          <rect x="3" y="14" width="5" height="18" rx="2.5" fill="#e11d48" />
+          <ellipse cx="5.5" cy="32" rx="4" ry="2" fill="#881337" />
         </g>
 
         <!-- Body -->
-        <rect x="-17" y="-17" width="34" height="34" rx="8" fill="url(#dshGrad)" stroke="#f3e8ff" stroke-width="1.5" transform="rotate(45)" />
+        <rect x="-17" y="-17" width="34" height="34" rx="8" fill="url(#zeroTwoGrad)" stroke="#ffe4e6" stroke-width="1.5" transform="rotate(45)" />
 
-        <!-- Visor Face -->
+        <!-- Cute Eyes -->
         <circle cx="-5" cy="-2" r="3.5" fill="#ffffff" />
         <circle cx="5" cy="-2" r="3.5" fill="#ffffff" />
-        <circle cx="-4" cy="-2" r="1.8" fill="#3b0764" />
-        <circle cx="6" cy="-2" r="1.8" fill="#3b0764" />
+        <circle cx="-4" cy="-2" r="1.8" fill="#881337" />
+        <circle cx="6" cy="-2" r="1.8" fill="#881337" />
       </g>
     </g>
   </g>
 
-  <!-- ==================== AGENT 4: Prime-RLM ==================== -->
+  <!-- ==================== AGENT 4: Hinata (Security Auditor) ==================== -->
   <g class="agent4-wrap">
     <ellipse cx="0" cy="205" rx="22" ry="5" fill="#000000" class="shadow-anim" />
 
@@ -286,8 +286,8 @@
       <!-- Holographic Status Badge -->
       <g transform="translate(0, 94)">
         <rect x="-65" y="-22" width="130" height="26" rx="6" fill="#0f172a" stroke="#34d399" stroke-width="1.2" opacity="0.95" filter="url(#shadow)" />
-        <text x="0" y="-8" class="badge-name" fill="#34d399">🧠 Prime-RLM</text>
-        <text x="0" y="2" class="badge-task">Active • Code Synthesis</text>
+        <text x="0" y="-8" class="badge-name" fill="#34d399">🧠 Hinata</text>
+        <text x="0" y="2" class="badge-task">Security Auditor</text>
       </g>
 
       <!-- Bot Chassis -->
@@ -302,7 +302,7 @@
         </g>
 
         <!-- Body -->
-        <rect x="-18" y="-18" width="36" height="34" rx="9" fill="url(#primeGrad)" stroke="#ecfdf5" stroke-width="1.5" />
+        <rect x="-18" y="-18" width="36" height="34" rx="9" fill="url(#hinataGrad)" stroke="#ecfdf5" stroke-width="1.5" />
 
         <!-- Live Terminal Screen -->
         <rect x="-13" y="-11" width="26" height="18" rx="4" fill="#022c22" stroke="#34d399" stroke-width="1" />
