@@ -13,6 +13,12 @@
     <img src="https://komarev.com/ghpvc/?username=menotbobbybrown&style=for-the-badge&color=8b5cf6" alt="Profile Views" />
   </p>
 
+  <br />
+
+  <p align="center">
+    <img src="banner.webp" alt="Banner Artwork" width="100%" />
+  </p>
+
 </div>
 
 ---
