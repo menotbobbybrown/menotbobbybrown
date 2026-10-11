@@ -1,135 +1,233 @@
 <div align="center">
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=34&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Hi+there!+%F0%9F%90%8B+I'm+menotbobbybrown;Autonomous+AI+Agent+Architect;Building+Next-Gen+Developer+Tools;Open-Source+Systems+%26+Security+Research" alt="Typing SVG" />
+  <!-- Dynamic Header -->
+  <a href="https://github.com/menotbobbybrown">
+    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=30&pause=1200&color=38BDF8&center=true&vCenter=true&width=800&lines=Rabeel+Ashraf+%7C+%40menotbobbybrown;AI+Systems+Engineer+%26+Open-Source+Architect;Founder+%40ModelNorth+%E2%80%94+High-Throughput+Agent+Runtimes;Distributed+Sandboxing+%E2%80%A2+vLLM+Inference+%E2%80%A2+MCP+Ecosystem" alt="Typing SVG Hero" />
+  </a>
 
   <p align="center">
-    <strong>Architect of Autonomous Agent Systems • Developer Tooling • AI Infrastructure & Security</strong>
+    <strong>Architecting High-Throughput Autonomous Agent Runtimes, MicroVM Sandboxing & Production Developer Tooling</strong>
   </p>
 
+  <!-- Live Badges & Registry Telemetry -->
   <p align="center">
-    <a href="https://github.com/menotbobbybrown"><img src="https://img.shields.io/github/followers/menotbobbybrown?style=for-the-badge&logo=github&color=0ea5e9&labelColor=0f172a" alt="GitHub Followers" /></a>
-    <a href="https://github.com/menotbobbybrown?tab=stars"><img src="https://img.shields.io/github/stars/menotbobbybrown?style=for-the-badge&logo=github&color=eab308&labelColor=0f172a" alt="GitHub Stars" /></a>
-    <a href="https://www.npmjs.com/~rabeelashraf"><img src="https://img.shields.io/badge/npm-packages-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm Profile" /></a>
-    <img src="https://komarev.com/ghpvc/?username=menotbobbybrown&style=for-the-badge&color=8b5cf6" alt="Profile Views" />
-  </p>
-
-  <br />
-
-  <p align="center">
-    <img src="banner.webp" alt="Banner Artwork" width="100%" />
-  </p>
-
-  <br />
-
-  <!-- Animated Roaming Autonomous Waifu Agents -->
-  <p align="center">
-    <img src="agents_roaming.svg" alt="Live Roaming Agent Fleet" width="100%" />
+    <a href="https://github.com/menotbobbybrown"><img src="https://img.shields.io/github/followers/menotbobbybrown?style=for-the-badge&logo=github&logoColor=white&color=0ea5e9&labelColor=0f172a" alt="GitHub Followers" /></a>
+    <a href="https://github.com/menotbobbybrown?tab=stars"><img src="https://img.shields.io/github/stars/menotbobbybrown?style=for-the-badge&logo=apachespark&logoColor=yellow&color=eab308&labelColor=0f172a" alt="GitHub Stars" /></a>
+    <a href="https://www.npmjs.com/~rabeelashraf"><img src="https://img.shields.io/badge/npm-packages-CB3837?style=for-the-badge&logo=npm&logoColor=white&labelColor=0f172a" alt="npm Profile" /></a>
+    <a href="https://www.npmjs.com/org/modelnorth"><img src="https://img.shields.io/badge/%40modelnorth-Registry-6366f1?style=for-the-badge&logo=npm&logoColor=white&labelColor=0f172a" alt="npm Organization" /></a>
+    <img src="https://komarev.com/ghpvc/?username=menotbobbybrown&style=for-the-badge&color=8b5cf6&labelColor=0f172a" alt="Profile Views" />
   </p>
 
 </div>
 
 ---
 
-### 🌸 Meet Our Autonomous AI Agent Team
-
-Our ecosystem and operations are autonomously powered by specialized AI agents:
-
-| Agent | Icon | Role & Specialty | Primary Responsibilities |
-| :--- | :---: | :--- | :--- |
-| **Makima** | ⚡ | **Lead Autonomous Orchestrator** | Task planning, strategy alignment, & multi-agent workflow coordination. |
-| **Rem** | 🦅 | **Stealth Web Researcher** | Headless web data acquisition, Scrapling stealth scraping, & intelligence gathering. |
-| **Zero Two** | 🌸 | **Lead Systems Coder** | Modular plugin architecture (`dsh`), TypeScript/Python codebases, & feature development. |
-| **Hinata** | 🧠 | **Security & Code Auditor** | Recursive code refactoring, threat modeling, & E2B MicroVM sandbox verification. |
-
----
-
-### ⚡ About Me
+### 🏛️ Executive Profile & Engineering Spec
 
 ```yaml
-identity:
-  handle: menotbobbybrown
-  npm_organization: "@modelnorth"
-  npm_user: "rabeelashraf"
-  role: AI Systems Engineer & Open Source Architect
-  focus: Autonomous AI Agents, Agentic Tooling, Security & Infrastructure
-  passions: High-performance agent runtimes, LLM memory models, reverse engineering
-  motto: "Everything is a Plugin. Automate everything."
+architect_dossier:
+  name: "Rabeel Ashraf"
+  handle: "@menotbobbybrown"
+  organization: "ModelNorth (@modelnorth)"
+  location: "Dubai, United Arab Emirates (UTC+4)"
+  specialization: "Autonomous Agent Systems, Distributed Sandboxing & Applied AI Infrastructure"
+  engineering_philosophy: "Deterministic verification over probabilistic assumptions. Zero architectural bloat."
+
+core_competencies:
+  runtime_orchestration: "Hierarchical Multi-Agent DAGs, Model Context Protocol (MCP), State Machines"
+  isolation_security: "E2B MicroVM Hypervisors, Ephemeral Sandbox Enclaves, AST-Level Static Code Auditing"
+  data_engineering: "Stealth Headless Scraping (Scrapling), Anti-Detection Engines, Real-Time Computer Vision"
+  inference_pipelines: "vLLM High-Throughput Serving, CUDA Acceleration, Distributed Context Caching"
 ```
 
-- 🔭 **Currently Building**: Next-generation autonomous AI execution harnesses and modular agent plugin ecosystems.
-- ⚡ **Core Expertise**: LLM Agent Orchestration, Web Browser Automation, MicroVM Sandboxing, & Security Research.
-- 🛠️ **Open Source Philosophy**: Clean modular architecture, developer-first tooling, zero fluff.
+---
+
+### 📦 Production npm Ecosystem
+
+Production-grade agent harnesses, scaffolding generators, and plugin extensions deployed under `@modelnorth`:
+
+<table>
+  <thead>
+    <tr>
+      <th align="left">Package</th>
+      <th align="left">Install Command</th>
+      <th align="left">Architectural Purpose</th>
+      <th align="center">Registry Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="left"><strong><a href="https://www.npmjs.com/package/create-dsh-app"><code>create-dsh-app</code></a></strong></td>
+      <td align="left"><code>npx create-dsh-app &lt;project-name&gt;</code></td>
+      <td align="left">Production scaffolding CLI for building robust autonomous AI agent workspaces with pre-configured tool registries.</td>
+      <td align="center"><a href="https://www.npmjs.com/package/create-dsh-app"><img src="https://img.shields.io/npm/v/create-dsh-app?style=flat-square&color=38bdf8&logo=npm" alt="npm version" /></a></td>
+    </tr>
+    <tr>
+      <td align="left"><strong><a href="https://www.npmjs.com/package/@modelnorth/dsh-plugin-memory"><code>@modelnorth/dsh-plugin-memory</code></a></strong></td>
+      <td align="left"><code>npm i @modelnorth/dsh-plugin-memory</code></td>
+      <td align="left">Persistent Knowledge Graph and vector-embedded long-term memory engine for stateful agent workflows.</td>
+      <td align="center"><a href="https://www.npmjs.com/package/@modelnorth/dsh-plugin-memory"><img src="https://img.shields.io/npm/v/@modelnorth/dsh-plugin-memory?style=flat-square&color=38bdf8&logo=npm" alt="npm version" /></a></td>
+    </tr>
+    <tr>
+      <td align="left"><strong><a href="https://www.npmjs.com/package/@modelnorth/dsh-plugin-browser"><code>@modelnorth/dsh-plugin-browser</code></a></strong></td>
+      <td align="left"><code>npm i @modelnorth/dsh-plugin-browser</code></td>
+      <td align="left">High-speed Playwright automation bridge providing headless DOM element grounding, visual diffing, and interaction APIs.</td>
+      <td align="center"><a href="https://www.npmjs.com/package/@modelnorth/dsh-plugin-browser"><img src="https://img.shields.io/npm/v/@modelnorth/dsh-plugin-browser?style=flat-square&color=38bdf8&logo=npm" alt="npm version" /></a></td>
+    </tr>
+    <tr>
+      <td align="left"><strong><a href="https://www.npmjs.com/package/dsh-plugin-mcp"><code>dsh-plugin-mcp</code></a></strong></td>
+      <td align="left"><code>npm i dsh-plugin-mcp</code></td>
+      <td align="left">Universal Model Context Protocol (MCP) bridge enabling instant interoperability across standard agent tool servers.</td>
+      <td align="center"><a href="https://www.npmjs.com/package/dsh-plugin-mcp"><img src="https://img.shields.io/npm/v/dsh-plugin-mcp?style=flat-square&color=38bdf8&logo=npm" alt="npm version" /></a></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-### 📦 Official npm Packages
+### 🚀 Key Open-Source Projects & Research
 
-Explore and install our ecosystem packages directly via `npm` or `npx`:
-
-| Package Name | Install Command | Description | Badges |
-| :--- | :--- | :--- | :--- |
-| **[`create-dsh-app`](https://www.npmjs.com/package/create-dsh-app)** | `npx create-dsh-app <my-agent>` | 1-line scaffolding generator for DeepSeek Harness AI agents. | <a href="https://www.npmjs.com/package/create-dsh-app"><img src="https://img.shields.io/badge/npm-v1.0.0-red?style=flat-square&logo=npm" alt="npm version" /></a> |
-| **[`@modelnorth/dsh-plugin-memory`](https://www.npmjs.com/package/@modelnorth/dsh-plugin-memory)** | `npm i @modelnorth/dsh-plugin-memory` | Persistent Knowledge Graph & long-term memory engine. | <a href="https://www.npmjs.com/package/@modelnorth/dsh-plugin-memory"><img src="https://img.shields.io/badge/npm-v1.0.0-red?style=flat-square&logo=npm" alt="npm version" /></a> |
-| **[`@modelnorth/dsh-plugin-browser`](https://www.npmjs.com/package/@modelnorth/dsh-plugin-browser)** | `npm i @modelnorth/dsh-plugin-browser` | Native web browser automation agent plugin powered by Playwright. | <a href="https://www.npmjs.com/package/@modelnorth/dsh-plugin-browser"><img src="https://img.shields.io/badge/npm-v1.0.0-red?style=flat-square&logo=npm" alt="npm version" /></a> |
-| **[`dsh-plugin-mcp`](https://www.npmjs.com/package/dsh-plugin-mcp)** | `npm i dsh-plugin-mcp` | Universal Model Context Protocol (MCP) bridge plugin. | <a href="https://www.npmjs.com/package/dsh-plugin-mcp"><img src="https://img.shields.io/badge/npm-v1.0.0-red?style=flat-square&logo=npm" alt="npm version" /></a> |
+<table>
+  <thead>
+    <tr>
+      <th align="left">System / Repository</th>
+      <th align="left">Domain</th>
+      <th align="left">Engineering Highlights</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="left"><strong><a href="https://github.com/menotbobbybrown/create-dsh-app">🔌 DeepSeek Harness (<code>dsh</code>)</a></strong></td>
+      <td align="left"><em>Agent Framework</em></td>
+      <td align="left">Extensible, plugin-driven runtime designed for autonomous agent task planning, memory retention, and low-latency tool dispatch.</td>
+    </tr>
+    <tr>
+      <td align="left"><strong><a href="https://github.com/menotbobbybrown/claude-ops">🤖 Claude-Ops</a></strong></td>
+      <td align="left"><em>Autonomous Operations</em></td>
+      <td align="left">Production agent workspace orchestrating 57 specialized skills, 21 subagent roles, multi-channel inbound triage, and automated GitHub PR flows.</td>
+    </tr>
+    <tr>
+      <td align="left"><strong><a href="https://github.com/menotbobbybrown/system_prompts_leaks">📜 System Prompts Leaks</a></strong></td>
+      <td align="left"><em>AI Alignment Research</em></td>
+      <td align="left">Comprehensive structural analysis, prompt architecture taxonomy, and security evaluations of frontier foundation models.</td>
+    </tr>
+    <tr>
+      <td align="left"><strong><a href="https://github.com/menotbobbybrown/prime-agent">🧠 Prime Agent &amp; TrueForge</a></strong></td>
+      <td align="left"><em>Autonomous Coding Runtimes</em></td>
+      <td align="left">Recursive language model harnesses engineered to parse build telemetry, AST differences, and test suites for autonomous code repair.</td>
+    </tr>
+    <tr>
+      <td align="left"><strong><a href="https://modelnorth.com">🛡️ HadarBot</a></strong></td>
+      <td align="left"><em>Computer Vision &amp; Safety</em></td>
+      <td align="left">Real-time industrial computer vision engine for hazard detection, PPE compliance, and risk analytics powered by YOLOv8 and OpenCV.</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-### 🚀 Featured Open-Source Repositories
-
-| Project | Category | Overview & Links |
-| :--- | :--- | :--- |
-| **🔌 DeepSeek Harness (dsh)** | *Agent Framework* | Modular, high-performance scaffolding & plugin ecosystem for autonomous AI agents.<br />👉 [`create-dsh-app`](https://github.com/menotbobbybrown/create-dsh-app) • [`dsh-plugin-memory`](https://github.com/menotbobbybrown/dsh-plugin-memory) |
-| **🤖 Claude-Ops** | *Business OS* | Autonomous workspace featuring 57 skills, 21 agents, multi-channel inbox, & automated PR pipelines.<br />👉 [`menotbobbybrown/claude-ops`](https://github.com/menotbobbybrown/claude-ops) |
-| **📜 System Prompts Leaks** | *Security Research* | Archive & structural analysis of system prompts from SOTA models (Claude, ChatGPT, Gemini, Grok).<br />👉 [`menotbobbybrown/system_prompts_leaks`](https://github.com/menotbobbybrown/system_prompts_leaks) |
-| **🧠 Prime Agent & TrueForge** | *AI Runtimes* | Self-improving Recursive Language Model (RLM) agent harness for autonomous coding workflows.<br />👉 [`prime-agent`](https://github.com/menotbobbybrown/prime-agent) • [`trueforge`](https://github.com/menotbobbybrown/trueforge) |
-
----
-
-### 🛠️ Tech Stack & Ecosystem
+### 🛠️ Technical Stack & Systems Matrix
 
 <div align="center">
 
-| Domain | Technologies & Tools |
-| :--- | :--- |
-| **Languages** | `Python` `TypeScript` `JavaScript` `C/C++` `Rust` `SQL` `HTML5/CSS3` |
-| **AI & Agents** | `OpenAI API` `Anthropic SDK` `E2B MicroVMs` `Scrapling` `Playwright` `LangChain` `PyTorch` |
-| **Frameworks & Web** | `FastAPI` `Next.js` `React` `Node.js` `Tailwind CSS` `Prisma ORM` |
-| **Databases & Storage** | `PostgreSQL` `Redis` `SQLite` `Vector DBs` |
-| **DevOps & Cloud** | `Docker` `GitHub Actions` `Linux / Bash` `Git` `Vercel` `Cloudflare` |
-
-</div>
+<table>
+  <thead>
+    <tr>
+      <th align="left">Layer</th>
+      <th align="left">Technologies & Infrastructure</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="left"><strong>Languages</strong></td>
+      <td align="left"><code>Python 3.12</code> • <code>TypeScript</code> • <code>JavaScript</code> • <code>Rust</code> • <code>C/C++</code> • <code>SQL</code> • <code>Shell / Bash</code></td>
+    </tr>
+    <tr>
+      <td align="left"><strong>AI & Agent Infrastructure</strong></td>
+      <td align="left"><code>Anthropic Claude SDK</code> • <code>OpenAI API</code> • <code>vLLM</code> • <code>Model Context Protocol (MCP)</code> • <code>LangGraph</code> • <code>PyTorch / CUDA</code></td>
+    </tr>
+    <tr>
+      <td align="left"><strong>Sandboxing & Execution</strong></td>
+      <td align="left"><code>E2B MicroVMs</code> • <code>Docker</code> • <code>Linux cgroups / Namespaces</code> • <code>Node / Bun VM Contexts</code></td>
+    </tr>
+    <tr>
+      <td align="left"><strong>Web Scraping & Automation</strong></td>
+      <td align="left"><code>Scrapling (StealthyFetcher)</code> • <code>Playwright</code> • <code>Patchright</code> • <code>Anti-Bot Evasion</code></td>
+    </tr>
+    <tr>
+      <td align="left"><strong>Web & Backend Engineering</strong></td>
+      <td align="left"><code>FastAPI</code> • <code>Next.js 15</code> • <code>React Flow (@xyflow/react)</code> • <code>Tailwind CSS</code> • <code>Prisma ORM</code></td>
+    </tr>
+    <tr>
+      <td align="left"><strong>Databases & Queues</strong></td>
+      <td align="left"><code>PostgreSQL</code> • <code>Redis</code> • <code>Qdrant / pgvector</code> • <code>SQLite</code></td>
+    </tr>
+    <tr>
+      <td align="left"><strong>DevOps & Deployment</strong></td>
+      <td align="left"><code>GitHub Actions CI/CD</code> • <code>Vercel</code> • <code>Cloudflare</code> • <code>Coolify</code> • <code>Linux VPS</code></td>
+    </tr>
+  </tbody>
+</table>
 
 <br />
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,js,react,nextjs,fastapi,postgres,prisma,docker,githubactions,linux,tailwind,vscode,git&perline=7" alt="Tech Stack Icons" />
+  <img src="https://skillicons.dev/icons?i=py,ts,rust,c,react,nextjs,fastapi,postgres,redis,prisma,docker,githubactions,linux,tailwind,vscode,git&perline=8" alt="Tech Stack Icons" />
 </p>
+
+</div>
 
 ---
 
-### 📊 GitHub Analytics
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=menotbobbybrown&theme=tokyonight" alt="menotbobbybrown GitHub Summary" width="98%" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=menotbobbybrown&theme=tokyonight" alt="Repositories Per Language" width="48%" />
-  &nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=menotbobbybrown&theme=tokyonight" alt="Most Commit Language" width="48%" />
-</p>
-
----
+### 📊 GitHub Activity & Repository Telemetry
 
 <div align="center">
+
+  <a href="https://github.com/menotbobbybrown">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=menotbobbybrown&theme=tokyonight" width="98%" alt="GitHub Profile Details" style="border-radius: 8px;" />
+  </a>
+
+  <br /><br />
+
+  <table width="100%">
+    <tr>
+      <td width="50%" align="center">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=menotbobbybrown&theme=tokyonight" width="100%" alt="Repositories Per Language" style="border-radius: 8px;" />
+      </td>
+      <td width="50%" align="center">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=menotbobbybrown&theme=tokyonight" width="100%" alt="Most Commit Language" style="border-radius: 8px;" />
+      </td>
+    </tr>
+  </table>
+
+  <br />
+
+  <!-- GitHub Streak Stats -->
+  <a href="https://github.com/menotbobbybrown">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=menotbobbybrown&theme=tokyonight&hide_border=true&background=0f172a&stroke=38bdf8&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="GitHub Streak" width="98%" style="border-radius: 8px;" />
+  </a>
+
+</div>
+
+---
+
+### 📬 Connect & Collaborate
+
+<div align="center">
+
   <p align="center">
-    <i>"The best way to predict the future is to automate it."</i>
+    <i>"The highest-leverage engineering is building systems that autonomously write, verify, and ship themselves."</i>
   </p>
-  
+
   <p align="center">
-    <a href="https://github.com/menotbobbybrown"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-    <a href="https://www.npmjs.com/~rabeelashraf"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" /></a>
-    <a href="https://www.npmjs.com/org/modelnorth"><img src="https://img.shields.io/badge/npm_org-@modelnorth-red?style=for-the-badge&logo=npm&logoColor=white" alt="npm org" /></a>
+    <a href="https://github.com/menotbobbybrown"><img src="https://img.shields.io/badge/GitHub-%40menotbobbybrown-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=0f172a" alt="GitHub" /></a>
+    <a href="https://www.npmjs.com/~rabeelashraf"><img src="https://img.shields.io/badge/npm-rabeelashraf-CB3837?style=for-the-badge&logo=npm&logoColor=white&labelColor=0f172a" alt="npm Profile" /></a>
+    <a href="https://www.npmjs.com/org/modelnorth"><img src="https://img.shields.io/badge/ModelNorth-Organization-4f46e5?style=for-the-badge&logo=npm&logoColor=white&labelColor=0f172a" alt="ModelNorth npm" /></a>
+    <a href="mailto:modelnorth@gmail.com"><img src="https://img.shields.io/badge/Email-modelnorth%40gmail.com-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f172a" alt="Direct Email" /></a>
   </p>
+
+  <p align="center">
+    <sub>ModelNorth • High-Assurance AI Runtimes & Autonomous Systems • Dubai, UAE</sub>
+  </p>
+
 </div>
